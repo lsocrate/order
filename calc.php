@@ -12,7 +12,7 @@ foreach ($votes as $json) {
         $list_size = count($rank);
         foreach ($rank as $key => $value) {
             if (!isset($ranking[$value])) {
-                $ranking[$value] += 0;
+                $ranking[$value] = 0;
             }
             $ranking[$value] += ($list_size - $key);
         }
