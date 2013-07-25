@@ -1,6 +1,14 @@
 <?php
 if ($_POST['sent']) {
-  var_dump($_POST);
+  $log = 'options.txt';
+  $record = fopen($log, 'a+');
+  $order = array(
+    $_POST['name'] => $_POST['order']
+  );
+  $json = json_encode($order);
+  fwrite($record, "\n$json");
+
+  echo '<h1 style="color:#f00">ENVIADO!</h1>';
 }
 ?>
 <!DOCTYPE html>
