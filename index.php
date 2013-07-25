@@ -20,14 +20,14 @@ if ($_POST['sent']) {
         <form method="post">
             <label>Identifique-se: <input type="text" name="name"></label>
             <ul id="sortable">
-              <li class="ui-state-default" date-game="Siri.ars"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Siri mestrando Ars Magica, cabala de magos na idade média</li>
-              <li class="ui-state-default" date-game="Siri.l5r"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Siri mestrando Legend of the Five Rings High Fantasy</li>
-              <li class="ui-state-default" date-game="Siri.pandora"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Siri mestrando Pandora, High Fantasy de cenário próprio usando Fate RPG</li>
-              <li class="ui-state-default" date-game="Proto.noir"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Felipe Proto mestrando Deadlands Noir, investigação estilo noir</li>
-              <li class="ui-state-default" date-game="Proto.tale"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Felipe Proto mestrando A Tale of Many Kingdoms, High fantasy de politicagem usando Savage Worlds</li>
-              <li class="ui-state-default" date-game="Poke.matrix"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Conrado Poke mestrando Matrix usando New World of Darkness</li>
-              <li class="ui-state-default" date-game="Poke.terror"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Conrado Poke mestrando Long Nights of Terror (Narnya feat Harry Potter) usando New World of Darkness</li>
-              <li class="ui-state-default" date-game="Poke.l5r"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Conrado Poke mestrando Legend of the Five Rings Low Fantasy</li>
+              <li class="ui-state-default" data-game="Siri.ars"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Siri mestrando Ars Magica, cabala de magos na idade média</li>
+              <li class="ui-state-default" data-game="Siri.l5r"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Siri mestrando Legend of the Five Rings High Fantasy</li>
+              <li class="ui-state-default" data-game="Siri.pandora"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Siri mestrando Pandora, High Fantasy de cenário próprio usando Fate RPG</li>
+              <li class="ui-state-default" data-game="Proto.noir"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Felipe Proto mestrando Deadlands Noir, investigação estilo noir</li>
+              <li class="ui-state-default" data-game="Proto.tale"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Felipe Proto mestrando A Tale of Many Kingdoms, High fantasy de politicagem usando Savage Worlds</li>
+              <li class="ui-state-default" data-game="Poke.matrix"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Conrado Poke mestrando Matrix usando New World of Darkness</li>
+              <li class="ui-state-default" data-game="Poke.terror"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Conrado Poke mestrando Long Nights of Terror (Narnya feat Harry Potter) usando New World of Darkness</li>
+              <li class="ui-state-default" data-game="Poke.l5r"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Conrado Poke mestrando Legend of the Five Rings Low Fantasy</li>
             </ul>
             <input type="hidden" name="order" value="">
             <input type="hidden" name="sent" value="1">
