@@ -20,7 +20,8 @@ foreach ($votes as $json) {
 }
 
 uasort($ranking, function($a, $b){
-    return $a - $b;
+    return $b - $a;
 });
 
+echo "<pre>\n";
 var_dump($ranking);
