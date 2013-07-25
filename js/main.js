@@ -9,4 +9,10 @@ jQuery(function($){
     }
   });
   $( "#sortable" ).disableSelection();
+
+  var order = []
+  $('#sortable li', this).each(function() {
+    order.push($(this).data('game'));
+  })
+  $('input[name=order]').val(order);
 });
